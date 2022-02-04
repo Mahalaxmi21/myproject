@@ -13,6 +13,7 @@ public class StringP {
 		System.out.println(sub.substring(5));
 		System.out.println("-------------");
 		
+		
 		//String Comparison
 		String s1 = "Hello";
 		String s2 = "Hella";//o-a distance b/w 15 so o place a is -14
@@ -91,7 +92,11 @@ public class StringP {
 		System.out.println("Reverse the String : "+Sb);
 		System.out.println("-------------");
 
-		
+		//unicode postion
+		String ss = new String("helloooo");
+		ss.codePointCount(0, 3);
+		System.out.println(ss);
+				
 		
 		 
 
